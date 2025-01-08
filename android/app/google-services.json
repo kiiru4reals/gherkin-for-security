@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1087224664877",
+    "project_id": "gherkin-for-security",
+    "storage_bucket": "gherkin-for-security.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087224664877:android:b5793d604d19e97258f9a4",
+        "android_client_info": {
+          "package_name": "com.example.gherkin_for_security"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOR8-SOrFYiiwplFdt8wcd_biOi8XPo9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
