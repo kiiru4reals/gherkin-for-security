@@ -1,0 +1,26 @@
+name: Run Flutter tests
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-flutter-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        channel: stable
+        flutter-version: 3.27.1
+
+    - name: Install dependencies
+      run: flutter pub get
+
+    - name: Run tests
+      run: flutter test
